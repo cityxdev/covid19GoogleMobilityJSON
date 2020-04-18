@@ -38,12 +38,12 @@ for row in reader:
 
 	values={
 		"date":row["date"],
-		"retail_and_recreation_percent_change_from_baseline":row["retail_and_recreation_percent_change_from_baseline"],
-		"grocery_and_pharmacy_percent_change_from_baseline":row["grocery_and_pharmacy_percent_change_from_baseline"],
-		"parks_percent_change_from_baseline":row["parks_percent_change_from_baseline"],
-		"transit_stations_percent_change_from_baseline":row["transit_stations_percent_change_from_baseline"],
-		"workplaces_percent_change_from_baseline":row["workplaces_percent_change_from_baseline"],
-		"residential_percent_change_from_baseline":row["residential_percent_change_from_baseline"]
+		"retail_and_recreation_percent_change_from_baseline":float(row["retail_and_recreation_percent_change_from_baseline"]) if row["retail_and_recreation_percent_change_from_baseline"]!='' else None,
+		"grocery_and_pharmacy_percent_change_from_baseline":float(row["grocery_and_pharmacy_percent_change_from_baseline"]) if row["grocery_and_pharmacy_percent_change_from_baseline"]!='' else None,
+		"parks_percent_change_from_baseline":float(row["parks_percent_change_from_baseline"]) if row["parks_percent_change_from_baseline"]!='' else None,
+		"transit_stations_percent_change_from_baseline":float(row["transit_stations_percent_change_from_baseline"]) if row["transit_stations_percent_change_from_baseline"]!='' else None,
+		"workplaces_percent_change_from_baseline":float(row["workplaces_percent_change_from_baseline"]) if row["workplaces_percent_change_from_baseline"]!='' else None,
+		"residential_percent_change_from_baseline":float(row["residential_percent_change_from_baseline"]) if row["residential_percent_change_from_baseline"]!='' else None
 	}
 
 	if row["sub_region_1"]!='':
