@@ -1,0 +1,518 @@
+{
+    "country": [
+        {
+            "date": "2020-02-15", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-1", 
+            "parks_percent_change_from_baseline": "-6", 
+            "residential_percent_change_from_baseline": "3", 
+            "retail_and_recreation_percent_change_from_baseline": "-6", 
+            "transit_stations_percent_change_from_baseline": "-1", 
+            "workplaces_percent_change_from_baseline": "0"
+        }, 
+        {
+            "date": "2020-02-16", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-2", 
+            "parks_percent_change_from_baseline": "0", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-7", 
+            "transit_stations_percent_change_from_baseline": "3", 
+            "workplaces_percent_change_from_baseline": "3"
+        }, 
+        {
+            "date": "2020-02-17", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-3", 
+            "parks_percent_change_from_baseline": "3", 
+            "residential_percent_change_from_baseline": "3", 
+            "retail_and_recreation_percent_change_from_baseline": "0", 
+            "transit_stations_percent_change_from_baseline": "-3", 
+            "workplaces_percent_change_from_baseline": "0"
+        }, 
+        {
+            "date": "2020-02-18", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-6", 
+            "parks_percent_change_from_baseline": "3", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "-1", 
+            "transit_stations_percent_change_from_baseline": "5", 
+            "workplaces_percent_change_from_baseline": "5"
+        }, 
+        {
+            "date": "2020-02-19", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-1", 
+            "parks_percent_change_from_baseline": "1", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "-2", 
+            "transit_stations_percent_change_from_baseline": "0", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-02-20", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-2", 
+            "parks_percent_change_from_baseline": "0", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "1", 
+            "transit_stations_percent_change_from_baseline": "-2", 
+            "workplaces_percent_change_from_baseline": "-1"
+        }, 
+        {
+            "date": "2020-02-21", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "1", 
+            "parks_percent_change_from_baseline": "2", 
+            "residential_percent_change_from_baseline": "3", 
+            "retail_and_recreation_percent_change_from_baseline": "-2", 
+            "transit_stations_percent_change_from_baseline": "-2", 
+            "workplaces_percent_change_from_baseline": "-9"
+        }, 
+        {
+            "date": "2020-02-22", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "0", 
+            "parks_percent_change_from_baseline": "7", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "-5", 
+            "transit_stations_percent_change_from_baseline": "-4", 
+            "workplaces_percent_change_from_baseline": "5"
+        }, 
+        {
+            "date": "2020-02-23", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "3", 
+            "parks_percent_change_from_baseline": "14", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "1", 
+            "transit_stations_percent_change_from_baseline": "-7", 
+            "workplaces_percent_change_from_baseline": "-1"
+        }, 
+        {
+            "date": "2020-02-24", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "1", 
+            "parks_percent_change_from_baseline": "-1", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "-6", 
+            "transit_stations_percent_change_from_baseline": "-5", 
+            "workplaces_percent_change_from_baseline": "1"
+        }, 
+        {
+            "date": "2020-02-25", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "0", 
+            "parks_percent_change_from_baseline": "1", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "1", 
+            "transit_stations_percent_change_from_baseline": "-3", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-02-26", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "1", 
+            "parks_percent_change_from_baseline": "-3", 
+            "residential_percent_change_from_baseline": "2", 
+            "retail_and_recreation_percent_change_from_baseline": "-5", 
+            "transit_stations_percent_change_from_baseline": "-10", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-02-27", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "1", 
+            "parks_percent_change_from_baseline": "0", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "2", 
+            "transit_stations_percent_change_from_baseline": "2", 
+            "workplaces_percent_change_from_baseline": "0"
+        }, 
+        {
+            "date": "2020-02-28", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "4", 
+            "parks_percent_change_from_baseline": "5", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "4", 
+            "transit_stations_percent_change_from_baseline": "13", 
+            "workplaces_percent_change_from_baseline": "3"
+        }, 
+        {
+            "date": "2020-02-29", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "7", 
+            "parks_percent_change_from_baseline": "7", 
+            "residential_percent_change_from_baseline": "-1", 
+            "retail_and_recreation_percent_change_from_baseline": "5", 
+            "transit_stations_percent_change_from_baseline": "8", 
+            "workplaces_percent_change_from_baseline": "6"
+        }, 
+        {
+            "date": "2020-03-01", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "9", 
+            "parks_percent_change_from_baseline": "12", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "3", 
+            "transit_stations_percent_change_from_baseline": "9", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-03-02", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "8", 
+            "parks_percent_change_from_baseline": "8", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "8", 
+            "transit_stations_percent_change_from_baseline": "11", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-03-03", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "5", 
+            "parks_percent_change_from_baseline": "3", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "6", 
+            "transit_stations_percent_change_from_baseline": "-1", 
+            "workplaces_percent_change_from_baseline": "3"
+        }, 
+        {
+            "date": "2020-03-04", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "4", 
+            "parks_percent_change_from_baseline": "4", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "3", 
+            "transit_stations_percent_change_from_baseline": "1", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-03-05", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "4", 
+            "parks_percent_change_from_baseline": "3", 
+            "residential_percent_change_from_baseline": "2", 
+            "retail_and_recreation_percent_change_from_baseline": "5", 
+            "transit_stations_percent_change_from_baseline": "0", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-03-06", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "8", 
+            "parks_percent_change_from_baseline": "-1", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "0", 
+            "transit_stations_percent_change_from_baseline": "5", 
+            "workplaces_percent_change_from_baseline": "5"
+        }, 
+        {
+            "date": "2020-03-07", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "6", 
+            "parks_percent_change_from_baseline": "5", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "1", 
+            "transit_stations_percent_change_from_baseline": "6", 
+            "workplaces_percent_change_from_baseline": "7"
+        }, 
+        {
+            "date": "2020-03-08", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "2", 
+            "parks_percent_change_from_baseline": "13", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "3", 
+            "transit_stations_percent_change_from_baseline": "3", 
+            "workplaces_percent_change_from_baseline": "1"
+        }, 
+        {
+            "date": "2020-03-09", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "4", 
+            "parks_percent_change_from_baseline": "1", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "-4", 
+            "transit_stations_percent_change_from_baseline": "-3", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-03-10", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "4", 
+            "parks_percent_change_from_baseline": "1", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "5", 
+            "transit_stations_percent_change_from_baseline": "0", 
+            "workplaces_percent_change_from_baseline": "4"
+        }, 
+        {
+            "date": "2020-03-11", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "9", 
+            "parks_percent_change_from_baseline": "2", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "-2", 
+            "transit_stations_percent_change_from_baseline": "-7", 
+            "workplaces_percent_change_from_baseline": "5"
+        }, 
+        {
+            "date": "2020-03-12", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "14", 
+            "parks_percent_change_from_baseline": "6", 
+            "residential_percent_change_from_baseline": "1", 
+            "retail_and_recreation_percent_change_from_baseline": "7", 
+            "transit_stations_percent_change_from_baseline": "-5", 
+            "workplaces_percent_change_from_baseline": "2"
+        }, 
+        {
+            "date": "2020-03-13", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "19", 
+            "parks_percent_change_from_baseline": "0", 
+            "residential_percent_change_from_baseline": "0", 
+            "retail_and_recreation_percent_change_from_baseline": "0", 
+            "transit_stations_percent_change_from_baseline": "4", 
+            "workplaces_percent_change_from_baseline": "5"
+        }, 
+        {
+            "date": "2020-03-14", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "2", 
+            "parks_percent_change_from_baseline": "-4", 
+            "residential_percent_change_from_baseline": "4", 
+            "retail_and_recreation_percent_change_from_baseline": "-11", 
+            "transit_stations_percent_change_from_baseline": "-10", 
+            "workplaces_percent_change_from_baseline": "1"
+        }, 
+        {
+            "date": "2020-03-15", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-2", 
+            "parks_percent_change_from_baseline": "-10", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-12", 
+            "transit_stations_percent_change_from_baseline": "-10", 
+            "workplaces_percent_change_from_baseline": "-7"
+        }, 
+        {
+            "date": "2020-03-16", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-5", 
+            "parks_percent_change_from_baseline": "-8", 
+            "residential_percent_change_from_baseline": "9", 
+            "retail_and_recreation_percent_change_from_baseline": "-15", 
+            "transit_stations_percent_change_from_baseline": "-10", 
+            "workplaces_percent_change_from_baseline": "-15"
+        }, 
+        {
+            "date": "2020-03-17", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-7", 
+            "parks_percent_change_from_baseline": "-16", 
+            "residential_percent_change_from_baseline": "11", 
+            "retail_and_recreation_percent_change_from_baseline": "-19", 
+            "transit_stations_percent_change_from_baseline": "-18", 
+            "workplaces_percent_change_from_baseline": "-15"
+        }, 
+        {
+            "date": "2020-03-18", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-9", 
+            "parks_percent_change_from_baseline": "-14", 
+            "residential_percent_change_from_baseline": "10", 
+            "retail_and_recreation_percent_change_from_baseline": "-20", 
+            "transit_stations_percent_change_from_baseline": "-19", 
+            "workplaces_percent_change_from_baseline": "-19"
+        }, 
+        {
+            "date": "2020-03-19", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-3", 
+            "parks_percent_change_from_baseline": "-15", 
+            "residential_percent_change_from_baseline": "12", 
+            "retail_and_recreation_percent_change_from_baseline": "-18", 
+            "transit_stations_percent_change_from_baseline": "-20", 
+            "workplaces_percent_change_from_baseline": "-21"
+        }, 
+        {
+            "date": "2020-03-20", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-2", 
+            "parks_percent_change_from_baseline": "-18", 
+            "residential_percent_change_from_baseline": "13", 
+            "retail_and_recreation_percent_change_from_baseline": "-19", 
+            "transit_stations_percent_change_from_baseline": "-18", 
+            "workplaces_percent_change_from_baseline": "-20"
+        }, 
+        {
+            "date": "2020-03-21", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "0", 
+            "parks_percent_change_from_baseline": "-17", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-24", 
+            "transit_stations_percent_change_from_baseline": "-26", 
+            "workplaces_percent_change_from_baseline": "-13"
+        }, 
+        {
+            "date": "2020-03-22", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-18", 
+            "parks_percent_change_from_baseline": "-29", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-38", 
+            "transit_stations_percent_change_from_baseline": "-39", 
+            "workplaces_percent_change_from_baseline": "-22"
+        }, 
+        {
+            "date": "2020-03-23", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-14", 
+            "parks_percent_change_from_baseline": "-22", 
+            "residential_percent_change_from_baseline": "14", 
+            "retail_and_recreation_percent_change_from_baseline": "-24", 
+            "transit_stations_percent_change_from_baseline": "-27", 
+            "workplaces_percent_change_from_baseline": "-26"
+        }, 
+        {
+            "date": "2020-03-24", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-9", 
+            "parks_percent_change_from_baseline": "-31", 
+            "residential_percent_change_from_baseline": "17", 
+            "retail_and_recreation_percent_change_from_baseline": "-29", 
+            "transit_stations_percent_change_from_baseline": "-30", 
+            "workplaces_percent_change_from_baseline": "-28"
+        }, 
+        {
+            "date": "2020-03-25", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-5", 
+            "parks_percent_change_from_baseline": "-24", 
+            "residential_percent_change_from_baseline": "14", 
+            "retail_and_recreation_percent_change_from_baseline": "-23", 
+            "transit_stations_percent_change_from_baseline": "-35", 
+            "workplaces_percent_change_from_baseline": "-27"
+        }, 
+        {
+            "date": "2020-03-26", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-8", 
+            "parks_percent_change_from_baseline": "-25", 
+            "residential_percent_change_from_baseline": "17", 
+            "retail_and_recreation_percent_change_from_baseline": "-25", 
+            "transit_stations_percent_change_from_baseline": "-31", 
+            "workplaces_percent_change_from_baseline": "-31"
+        }, 
+        {
+            "date": "2020-03-27", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "2", 
+            "parks_percent_change_from_baseline": "-22", 
+            "residential_percent_change_from_baseline": "17", 
+            "retail_and_recreation_percent_change_from_baseline": "-22", 
+            "transit_stations_percent_change_from_baseline": "-36", 
+            "workplaces_percent_change_from_baseline": "-29"
+        }, 
+        {
+            "date": "2020-03-28", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-7", 
+            "parks_percent_change_from_baseline": "-29", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-35", 
+            "transit_stations_percent_change_from_baseline": "-54", 
+            "workplaces_percent_change_from_baseline": "-37"
+        }, 
+        {
+            "date": "2020-03-29", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-21", 
+            "parks_percent_change_from_baseline": "-30", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-46", 
+            "transit_stations_percent_change_from_baseline": "-67", 
+            "workplaces_percent_change_from_baseline": "-48"
+        }, 
+        {
+            "date": "2020-03-30", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-15", 
+            "parks_percent_change_from_baseline": "-29", 
+            "residential_percent_change_from_baseline": "23", 
+            "retail_and_recreation_percent_change_from_baseline": "-39", 
+            "transit_stations_percent_change_from_baseline": "-47", 
+            "workplaces_percent_change_from_baseline": "-44"
+        }, 
+        {
+            "date": "2020-03-31", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "3", 
+            "parks_percent_change_from_baseline": "-27", 
+            "residential_percent_change_from_baseline": "22", 
+            "retail_and_recreation_percent_change_from_baseline": "-32", 
+            "transit_stations_percent_change_from_baseline": "-51", 
+            "workplaces_percent_change_from_baseline": "-48"
+        }, 
+        {
+            "date": "2020-04-01", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "15", 
+            "parks_percent_change_from_baseline": "-19", 
+            "residential_percent_change_from_baseline": "16", 
+            "retail_and_recreation_percent_change_from_baseline": "-25", 
+            "transit_stations_percent_change_from_baseline": "-49", 
+            "workplaces_percent_change_from_baseline": "-53"
+        }, 
+        {
+            "date": "2020-04-02", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-75", 
+            "parks_percent_change_from_baseline": "-75", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-87", 
+            "transit_stations_percent_change_from_baseline": "-89", 
+            "workplaces_percent_change_from_baseline": "-82"
+        }, 
+        {
+            "date": "2020-04-03", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-68", 
+            "parks_percent_change_from_baseline": "-70", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-86", 
+            "transit_stations_percent_change_from_baseline": "-86", 
+            "workplaces_percent_change_from_baseline": "-81"
+        }, 
+        {
+            "date": "2020-04-04", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-63", 
+            "parks_percent_change_from_baseline": "-67", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-82", 
+            "transit_stations_percent_change_from_baseline": "-86", 
+            "workplaces_percent_change_from_baseline": "-73"
+        }, 
+        {
+            "date": "2020-04-05", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-55", 
+            "parks_percent_change_from_baseline": "-65", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-78", 
+            "transit_stations_percent_change_from_baseline": "-83", 
+            "workplaces_percent_change_from_baseline": "-66"
+        }, 
+        {
+            "date": "2020-04-06", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-59", 
+            "parks_percent_change_from_baseline": "-61", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-80", 
+            "transit_stations_percent_change_from_baseline": "-84", 
+            "workplaces_percent_change_from_baseline": "-80"
+        }, 
+        {
+            "date": "2020-04-07", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-53", 
+            "parks_percent_change_from_baseline": "-61", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-78", 
+            "transit_stations_percent_change_from_baseline": "-84", 
+            "workplaces_percent_change_from_baseline": "-79"
+        }, 
+        {
+            "date": "2020-04-08", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-50", 
+            "parks_percent_change_from_baseline": "-61", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-78", 
+            "transit_stations_percent_change_from_baseline": "-82", 
+            "workplaces_percent_change_from_baseline": "-79"
+        }, 
+        {
+            "date": "2020-04-09", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-34", 
+            "parks_percent_change_from_baseline": "-57", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-66", 
+            "transit_stations_percent_change_from_baseline": "-74", 
+            "workplaces_percent_change_from_baseline": "-76"
+        }, 
+        {
+            "date": "2020-04-10", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-95", 
+            "parks_percent_change_from_baseline": "-80", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-95", 
+            "transit_stations_percent_change_from_baseline": "-94", 
+            "workplaces_percent_change_from_baseline": "-91"
+        }, 
+        {
+            "date": "2020-04-11", 
+            "grocery_and_pharmacy_percent_change_from_baseline": "-45", 
+            "parks_percent_change_from_baseline": "-56", 
+            "residential_percent_change_from_baseline": "", 
+            "retail_and_recreation_percent_change_from_baseline": "-70", 
+            "transit_stations_percent_change_from_baseline": "-83", 
+            "workplaces_percent_change_from_baseline": "-68"
+        }
+    ], 
+    "regions": {}
+}
