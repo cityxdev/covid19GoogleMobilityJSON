@@ -56,6 +56,6 @@ for row in reader:
 
 
 for key in countries:
-	jsonfile = open('data/google_mobility_data_'+key+'_'+datetime.today().strftime('%Y-%m-%d')+'.json', 'w')
-	json.dump(countries[key], jsonfile, sort_keys=True, indent=4)
+	jsonfile = open('data/google_mobility_data_'+key+'.json', 'w')
+	json.dump(countries[key], jsonfile)
 
