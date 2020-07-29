@@ -1,4 +1,4 @@
-# covid19GoogleMobilityJSON - v2.0 - 2020-06-19 - https://github.com/cityxdev/covid19GoogleMobilityJSON
+# covid19GoogleMobilityJSON - v2.1 - 2020-07-29 - https://github.com/cityxdev/covid19GoogleMobilityJSON
 
 import csv
 import json
@@ -10,12 +10,14 @@ csvdata = urllib2.urlopen("https://www.gstatic.com/covid19/mobility/Global_Mobil
 countries = {}
 subregions1 = {}
 subregions2 = {}
+metros = {}
 
 fieldnames = (
     "country_region_code",
     "country_region",
     "sub_region_1",
     "sub_region_2",
+    "metro_area",
     "iso_3166_2_code",
     "census_fips_code",
     "date",
@@ -26,6 +28,7 @@ fieldnames = (
     "workplaces_percent_change_from_baseline",
     "residential_percent_change_from_baseline"
 )
+
 reader = csv.DictReader(csvdata, fieldnames)
 i = 0
 for row in reader:
@@ -39,6 +42,7 @@ for row in reader:
 
     subregion1key = None
     subregion2key = None
+    metrokey = None
     if row["sub_region_1"] != '':
         subregion1key = row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["sub_region_1"]
         if not subregions1.get(subregion1key):
@@ -47,6 +51,11 @@ for row in reader:
             subregion2key = subregion1key+"_"+row["sub_region_2"]
             if not subregions2.get(subregion2key):
                 subregions2[subregion2key] = []
+    else:
+        if row["metro_area"] != '':
+            metrokey = row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["metro_area"]
+            if not metros.get(metrokey):
+                metros[metrokey] = []
 
     values = {
         "date": row["date"],
@@ -86,7 +95,10 @@ for row in reader:
         if subregion2key:
             subregions2[subregion2key].append(values)
         else:
-            subregions1[subregion1key].append(values)
+            if metrokey:
+                metros[metrokey].append(values)
+            else:
+                subregions1[subregion1key].append(values)
     else:
         countries[countrykey].append(values)
 
@@ -101,3 +113,7 @@ for key in subregions1:
 for key in subregions2:
     jsonfile = open('data/subregions2/google_mobility_data_' + key + '.json', 'w')
     json.dump(subregions2[key], jsonfile)
+
+for key in metros:
+    jsonfile = open('data/metro_areas/google_mobility_data_' + key + '.json', 'w')
+    json.dump(metros[key], jsonfile)

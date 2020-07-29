@@ -16,12 +16,15 @@ A way to transform Google's mobility data during the COVID-19 pandemic to a JSON
       |     |__________google_mobility_data_XY-subregion1name.json
       |     |__________google_mobility_data_XY-subregion1name.json
       |
-      |______subregions2                                                               (currently, only for USA)
-             |__________google_mobility_data_XX_subregion1name_subregion2name.json
+      |______subregions2                                                               
+      |      |__________google_mobility_data_XX_subregion1name_subregion2name.json
+      |
+      |______metro_areas
+             |__________google_mobility_data_XX_metroareaname.json
            
 - The two letter code for countries is stable and covers the whole dataset
 - The iso_3166_2 code for subregion1 is used where possible. If unavailable, name is used instead
-- There are no codes for subregion2. It is also not possible to use the iso_3166_2 code to group subregion2 because it is not provided in the source
+- There are no codes for subregion2 or metro_areas. It is also not possible to use the iso_3166_2 code to group these because it is not provided in the source
 <hr/>
 
 <br/>
