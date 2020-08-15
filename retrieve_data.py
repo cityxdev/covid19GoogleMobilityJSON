@@ -44,16 +44,16 @@ for row in reader:
     subregion2key = None
     metrokey = None
     if row["sub_region_1"] != '':
-        subregion1key = row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["sub_region_1"]
+        subregion1key = (row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["sub_region_1"]).replace("/","-")
         if not subregions1.get(subregion1key):
             subregions1[subregion1key] = []
         if row["sub_region_2"] != '':
-            subregion2key = subregion1key+"_"+row["sub_region_2"]
+            subregion2key = (subregion1key+"_"+row["sub_region_2"]).replace("/","-")
             if not subregions2.get(subregion2key):
                 subregions2[subregion2key] = []
     else:
         if row["metro_area"] != '':
-            metrokey = row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["metro_area"]
+            metrokey = (row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["metro_area"]).replace("/","-")
             if not metros.get(metrokey):
                 metros[metrokey] = []
 
