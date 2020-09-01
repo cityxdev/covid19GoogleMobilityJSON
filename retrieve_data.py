@@ -44,7 +44,9 @@ for row in reader:
     subregion2key = None
     metrokey = None
     if row["sub_region_1"] != '':
-        subregion1key = (row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["sub_region_1"]).replace("/","-")
+        subregion1key = (row["iso_3166_2_code"] if row["iso_3166_2_code"] != '' else countrykey+"_"+row["sub_region_1"])
+        if subregion1key is not None:
+            subregion1key = subregion1key.replace("/","")
         if not subregions1.get(subregion1key):
             subregions1[subregion1key] = []
         if row["sub_region_2"] != '':
